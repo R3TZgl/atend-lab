@@ -13,4 +13,4 @@ $senha = "";
         echo "Conexão realizada com sucesso!";
     } catch (PDOException $e) {
         echo "Erro: " . $e->getMessage();
-    }
+    }  
